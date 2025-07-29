@@ -1,0 +1,93 @@
+/* Fonte caligrafada */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+  margin: 0;
+  background-color: #121212;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.titulo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #ffe5ec;
+}
+
+.subtitulo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #ffe5ec;
+}
+
+.tempo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.tempo-box {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px 25px;
+  min-width: 90px;
+  box-shadow: 0 4px 8px rgba(255,255,255,0.05);
+}
+
+.tempo-box span {
+  display: block;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.tempo-box small {
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.data-inicio {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #aaa;
+}
+
+.galeria img {
+  margin-top: 30px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #000;
+}
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -2;
+  opacity: 0.3; /* ajuste para escurecer um pouco o vídeo */
+  pointer-events: none;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff85a2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+}
